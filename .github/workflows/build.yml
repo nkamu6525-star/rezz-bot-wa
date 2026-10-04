@@ -13,7 +13,7 @@ jobs:
 
       - name: Extract project
         run: |
-          unzip -o FURINA-Android-Project.zip -d project
+          unzip -o FURINA-Android-Project-FIXED.zip -d project
 
       - name: Setup Java
         uses: actions/setup-java@v4
